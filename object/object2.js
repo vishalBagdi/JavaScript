@@ -86,5 +86,5 @@ const users = [
  }
 // console.log(course.courseInstructor)
 
-const {courseInstructor : instructor}= course
+const {courseInstructor : instructorc}= course
 console.log(courseInstructor);
