@@ -33,5 +33,44 @@ function loginUserMessage(username = "sam"){
 
 
 
-console.log( loginUserMessage()); // when you return the empty function then he return the undefined value
-console.log( loginUserMessage("vishal"));
+// console.log( loginUserMessage()); // when you return the empty function then he return the undefined value
+// console.log( loginUserMessage("vishal"));
+
+// function calculateCartPrice(...num1){  // ... there are three dots that is call Rest operator and Spread Operator thai is call rest and spread for their use cases 
+//     return num1
+// }
+// console.log(calculateCartPrice(200, 400, 500, 600,700));
+
+
+function calculateCartPrice( val1, val2, ...num1){  // ... there are three dots that is call Rest operator and Spread Operator thai is call rest and spread for their use cases 
+    return num1
+}
+console.log(calculateCartPrice(200, 400, 500, 600,700)); // output is val1 is taken 200, val2 is taken 400, and rest value is printed 
+
+// ********* how to object pass in the function ******
+
+const user = {
+    username : "vishal",
+    price : "199"
+}
+
+ function handleObject(anyObject){
+ console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`);
+ }
+
+ //console.log(handleObject(user))
+
+ handleObject({
+    username : "sam",
+    price: 399
+ })
+
+ // ******* how to function is pass in the array
+
+ const mynewArray = [200, 400, 500, 700];
+
+ function returnArrayg(getArray){
+   return getArray[1];
+ }
+
+ console.log(returnArrayg(mynewArray));
