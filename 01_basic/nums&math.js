@@ -4,7 +4,7 @@ const score = 400;
 const balance = new Number(100)
 //console.log(balance);
 
-//console.log(balance.toString().length);
+console.log(balance.toString().length);
 //console.log(typeof(balance));
 //console.log(balance.toFixed(2)) // toFixed method use when we create e-commarace web
 
@@ -20,9 +20,9 @@ const hundreds = 100000;
 //console.log(Math.ceil(4.3)) // returns  the greather value as givern the input
 
 //console.log(Math.random()); 1. Math.random() give the value b/w 0 and 1 .  2. //mostly use this method 
-console.log(Math.floor(Math.random()*1000000) + 1);
+// console.log(Math.floor(Math.random()*1000000) + 1);
 
-const min = 10
-const max =20
+// const min = 10
+// const max =20
 
-console.log(Math.floor(Math.random() * (max - min + 1)) + min)
+// console.log(Math.floor(Math.random() * (max - min + 1)) + min)

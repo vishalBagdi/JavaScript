@@ -1,11 +1,14 @@
-// switch (key) {
-//     case value:
-        
-//         break;
+// syntax og switch 
 
-//     default:
-//         break;
-// }
+
+/* switch (key) {
+     case value:
+        
+         break;
+
+     default:
+         break;
+  }  */
 
 const month = 9
 

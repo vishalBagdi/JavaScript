@@ -23,7 +23,7 @@ const newStringOne = "     vi   ";
 console.log(newStringOne.trim()); // remove the spaces in the string using trim function
 
 const url = "https://www.youtube.com/watch?v=fozwNnFunlo&list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37&index=11"
-console.log(url.replace('www', 'yyy'))
-console.log(url.includes('www'))
+// console.log(url.replace('www', 'yyy'))
+// console.log(url.includes('www'))
 
-console.log(gameName.split("-")) // separate the string is based on seprator
+// console.log(gameName.split("-")) // separate the string is based on seprator

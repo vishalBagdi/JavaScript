@@ -1,6 +1,6 @@
 let score = false
 
-// console.log(typeof score)
+//console.log(typeof score) // output --> boolean
 // console.log(typeof(score))
 
 
@@ -44,4 +44,4 @@ let value = 3
 
 let gameCounter = 100
 gameCounter++;
-console.log(gameCounter);
+//console.log(gameCounter);

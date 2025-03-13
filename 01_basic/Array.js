@@ -32,7 +32,7 @@ const myArr = [7,1,2,3,4,5,6]
 
 console.log("A ", myArr);
 
-const myn1 = myArr.slice(1,3) // slice method is return the value for example slice(1,3) there is 1 , 3 is index no of array and he is return the value of infex value of 1, 2 and other value of array is removed
+const myn1 = myArr.slice(1,3) // slice method is return the value for example slice(1,3) there is 1 , 3 is index no of array and he is return the value of index value of 1, 2 and other value of array is removed
 console.log("B ", myn1)
 
 const myn2 = myArr.splice(1,3) // splice method is remove the element of array which give the index value for example splice(1,3) so his remove the value of index no is 1,2,3 and their space
