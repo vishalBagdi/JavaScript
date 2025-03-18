@@ -38,4 +38,6 @@ form.addEventListener('submit', function (e) {
     //show the result
     results.innerHTML = `<span>${bmi}</span>`;
   }
+  
+  
 });
